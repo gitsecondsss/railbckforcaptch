@@ -1,0 +1,16 @@
+{
+  "name": "railway-captcha-backend",
+  "version": "1.0.0",
+  "description": "Railway backend for bot trust orchestration",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "node-fetch": "^3.3.2",
+    "helmet": "^7.0.0"
+  }
+}
