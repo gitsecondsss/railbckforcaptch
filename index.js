@@ -14,5 +14,5 @@ app.post("/issue", issue);
 app.post("/validate", validate);
 app.get("/health", health);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 80;
 app.listen(PORT, () => console.log(`Railway backend listening on port ${PORT}`));
